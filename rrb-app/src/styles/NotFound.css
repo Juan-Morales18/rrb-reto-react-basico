@@ -1,0 +1,29 @@
+.NotFound {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #bdb6b6;
+}
+
+.NotFound__text {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.NotFound__button {
+    color: #ffffff;
+    display: block;
+    border: none;
+    margin-top: 5rem;
+    background-color: #1976d2;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+.NotFound__button:hover {
+    cursor: pointer;
+}

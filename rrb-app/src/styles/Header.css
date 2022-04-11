@@ -1,0 +1,17 @@
+.Header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 9999;
+    background-color: #001e3c;
+    color: #fff;
+    padding: 0.25rem 1rem;
+}
+
+.Header__logo {
+    cursor: pointer;
+}

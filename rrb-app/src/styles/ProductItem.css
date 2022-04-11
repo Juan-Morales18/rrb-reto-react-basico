@@ -1,0 +1,33 @@
+.ProductItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid thin #36d5d870;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.ProductItem__image {
+    width: 128px;
+    height: 150px;
+}
+
+.ProductItem__price {
+    font-weight: 500;
+}
+
+.ProductItem__link {
+    text-decoration: none;
+    color: #3687d8;
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+}
+
+.ProductItem__link:hover {
+    background-color: #00ffff18;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}

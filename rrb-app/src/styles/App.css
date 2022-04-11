@@ -1,0 +1,35 @@
+.Button {
+  display: block;
+  padding: 0.5rem 3rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.Button--disabled {
+  background-color: #e0e0e0;
+  color: #adadad;
+}
+
+.Button--primary {
+  background-color: #1976d2;
+}
+
+.Button--danger {
+  background-color: #cb4242;
+}
+
+.Button--success {
+  background-color: #0fc027;
+}
+
+.Button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(32, 10, 10, 0.170);
+}
+
+.Button--disabled:hover {
+  box-shadow: none;
+  cursor: default;
+}

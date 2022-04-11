@@ -1,0 +1,29 @@
+.ProductDetails {
+    max-width: 360px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.162);
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ProductDetails__title {
+    font-weight: 700;
+    color: #000;
+}
+
+.ProductDetails__description {
+    color: #4c5b5bb6;
+    font-weight: 400;
+}
+
+.ProductDetails__price {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.ProductDetails__image {
+    max-width: 128px;
+}

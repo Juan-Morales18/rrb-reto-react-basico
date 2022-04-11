@@ -1,0 +1,39 @@
+.NumericStepper {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.NumericStepper__number {
+    width: 40%;
+    border-top: solid thin #1976d2;
+    border-bottom: solid thin #1976d2;
+    text-align: center;
+}
+
+.NumericStepper__button {
+    width: 30%;
+    background-color: #1976d2;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+}
+
+.NumericStepper__button:hover {
+    cursor: pointer;
+}
+
+.NumericStepper__button--left {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.NumericStepper__button--right {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
